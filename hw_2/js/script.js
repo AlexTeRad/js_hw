@@ -9,9 +9,9 @@
 
 //возраст
 
-// const age = prompt("Введите свой возраст:");
-// const currentYear = new Date().getFullYear(); //метод getFullYear() используеться для получения текущего года
-// const birthYear = currentYear - age; // вычитаем возраст из текущего года
+// let age = prompt("Введите свой возраст:");
+// let currentYear = new Date().getFullYear(); //метод getFullYear() используеться для получения текущего года
+// let birthYear = currentYear - age; // вычитаем возраст из текущего года
 
 // alert(`Ваш год рождения: ${birthYear}`); //вывод данных
 
@@ -29,10 +29,10 @@
 
 //
 
-// const num1 = prompt("Введите делимое:");
-// const num2 = prompt("Введите делитель:");
+// let num1 = prompt("Введите делимое:");
+// let num2 = prompt("Введите делитель:");
 
-// const quotient = Math.floor(num1 / num2);
+// let quotient = Math.floor(num1 / num2);
 
 // alert(`Результат: ${quotient}`);
 
@@ -46,9 +46,9 @@
 
 //Number: RGB
 
-// const red = parseInt(prompt("Введите значение красного цвета (от 0 до 255):"));
-// const green = parseInt(prompt("Введите значение зеленого цвета (от 0 до 255):"));
-// const blue = parseInt(prompt("Введите значение синего цвета (от 0 до 255):")); // запрос значений
+// let red = parseInt(prompt("Введите значение красного цвета (от 0 до 255):"));
+// let green = parseInt(prompt("Введите значение зеленого цвета (от 0 до 255):"));
+// let blue = parseInt(prompt("Введите значение синего цвета (от 0 до 255):")); // запрос значений
 
 // const hexColor = "#" + convertToHex(red) + convertToHex(green) + convertToHex(blue); // преобразуем в 16-ричную систему
 // alert(`Цвет в формате CSS: ${hexColor}`);
@@ -60,12 +60,12 @@
 
 //Number: flats
 
-// const floors = parseInt(prompt('Введите количество этажей:'));
-// const flatsPerFloor = parseInt(prompt('Введите количество квартир на этаже:'));
-// const flatNumber = parseInt(prompt('Введите номер квартиры:'));
+// let floors = parseInt(prompt('Введите количество этажей:'));
+// let flatsPerFloor = parseInt(prompt('Введите количество квартир на этаже:'));
+// let flatNumber = parseInt(prompt('Введите номер квартиры:'));
 
-// const flatsPerEntrance = flatsPerFloor * floors / 4;
-// const entranceNumber = Math.ceil(flatNumber / flatsPerEntrance);
-// const floorNumber = Math.ceil((flatNumber % flatsPerEntrance) / flatsPerFloor);
+// let flatsPerEntrance = flatsPerFloor * floors / 4;
+// let entranceNumber = Math.ceil(flatNumber / flatsPerEntrance);
+// let floorNumber = Math.ceil((flatNumber % flatsPerEntrance) / flatsPerFloor);
 
 // alert(`Подъезд: ${entranceNumber}, этаж: ${floorNumber}`);
